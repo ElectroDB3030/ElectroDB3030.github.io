@@ -1,0 +1,99 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+h1{
+    font: bold;
+    font-size: 20px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h2{
+    font: bold 14px verdana, arial, sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+#cuerpo{
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#cabecera{
+    background-color: #202A34;
+    border: 1px solid#5e9bb3;
+    padding: 20px;
+    color: white; 
+}
+
+#menu{
+    background: #cccccc;
+    padding: 5px 15px;
+}
+
+#seccion{
+    float: left; /**/
+    width: 660px;
+    margin: 20px;
+    background: rgb(90, 90, 90);
+}
+
+.articulo{
+    background: #c1c1c5;
+    border: 1px solid #999999;
+    color: black;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+span.pspan{
+    vertical-align: super;
+}
+
+#lateral{
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #202A34;
+    color: white;
+    border-radius: 5px;
+}
+
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #8a8d8a;
+    background:  #202A34;
+    color: white;
+}
+
+
+.enlace_menu {
+    display: inline-block;  /* Permite que el enlace tenga dimensiones como un botón */
+    background-color: #113d75;  /* Color de fondo azul */
+    color: white;  /* Texto en color blanco */
+    padding: 10px 20px;  /* Espaciado interno */
+    text-decoration: none;  /* Elimina el subrayado del enlace */
+    border-radius: 5px;  /* Bordes redondeados */
+    font-size: 16px;  /* Tamaño de fuente */
+    border: none;  /* Elimina bordes */
+    transition: background 0.3s;  /* Efecto suave al pasar el mouse */
+}
+
+.enlace_menu:hover {
+    background-color: #0056b3;  /* Color más oscuro al pasar el mouse */
+}
